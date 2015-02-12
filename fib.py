@@ -3,5 +3,5 @@ def F(n):
     elif n == 1: return 1
     else: return F(n-1)+F(n-2)
 
-for i in range(10):
+for i in range(30):
 	print F(i)
